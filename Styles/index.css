@@ -39,22 +39,13 @@ nav{
     align-items: center;
 }
 .banner .btn{
-    font-size: 1em;
-    padding-left: 36px;
-    padding-right: 36px;
-    padding-bottom: 12px;
-    padding-top: 12px;
     margin: 0;
 }
 
 /* shared styles */
 nav .btn{
     margin-right: 150px;
-    font-size: 1em;
-    padding-left: 36px;
-    padding-right: 36px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    
     width: 132px;
     height: 48px;
 }
@@ -63,8 +54,14 @@ nav .btn{
     border: none;
     color: white;
     background-color: #4E47FF;
-    border-radius: 7px;
+    border-radius: 8px;
     font-weight: bold;
+    
+    font-size: 1em;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
 .btn:hover{
@@ -74,5 +71,26 @@ nav .btn{
 }
 
 /* main styles */
+
+.action{
+    margin: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 240px;
+}
+
+.action-hd{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.action-para{
+    font-size: 21px;
+    /* margin-right: ; */
+    text-align: left;
+}
+.action img{
+    border-radius: 45px;
+}
 
 /* footer styles */
