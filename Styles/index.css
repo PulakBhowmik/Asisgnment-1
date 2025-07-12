@@ -1,0 +1,78 @@
+/* header styles */
+header{
+    background-image: url("../Assets/Hero-bg.png");
+    height: 698px;
+}
+header .logo, header .btn{
+    margin-top: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.logo{
+    color: #4E47FF;
+    font-size: 1.5em;
+    width: 99px;
+    height: 51px;
+}
+
+.banner{
+    max-width: 800px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.banner-text{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+/* how to center a div */
+/* way 1: this or way 2: <div>margin: 0 auto;</div> */
+.banner div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .btn{
+    font-size: 1em;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin: 0;
+}
+
+/* shared styles */
+nav .btn{
+    margin-right: 150px;
+    font-size: 1em;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 132px;
+    height: 48px;
+}
+
+.btn{
+    border: none;
+    color: white;
+    background-color: #4E47FF;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    box-shadow: 3px 3px 3px 3px #4E47FF;
+    cursor: pointer;
+    color: black;
+}
+
+/* main styles */
+
+/* footer styles */
