@@ -93,4 +93,49 @@ nav .btn{
     border-radius: 45px;
 }
 
+.user{
+    height: 300px;
+    border-radius: 25px;
+    /* display: flex; */
+    justify-content: center;
+    /* position: relative; */
+    background-color: rgba(77, 71, 255, 0.10);
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.user-hd{
+    font-weight: bold;
+    font-size: 2em;
+}
+.nums{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 155px;
+}
+.user .num strong{
+    color: #4E47FF;
+    font-size: 70px;
+    /* padding-top: 100px; */
+}
+.user p{
+    margin-top: 0;
+    font-size: 20px;
+    columns: #00000050;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+}
+
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+}
 /* footer styles */
