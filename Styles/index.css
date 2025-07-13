@@ -6,6 +6,9 @@ header{
 header .logo, header .btn{
     margin-top: 50px;
 }
+main{
+    background-color: #ffffff50;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -65,9 +68,10 @@ nav .btn{
 }
 
 .btn:hover{
-    box-shadow: 3px 3px 3px 3px #4E47FF;
+    box-shadow: 3px 3px 3px 3px #4d47ff8d;
     cursor: pointer;
     color: black;
+    font-size: medium;
 }
 
 /* main styles */
@@ -138,4 +142,79 @@ nav .btn{
     font-size: 97px;
     font-weight: bold;
 }
+form label{
+    font-size: 20px;
+    font-weight: 600;
+}
+form input, form .btn{
+    margin-top: 10px;
+    margin-bottom: 19px;
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    padding-left: 32px;
+    font-size: 18px;
+}
+
+form .msg{
+    padding-bottom: 50px;
+    height: 50px;
+}
+
 /* footer styles */
+footer{
+    /* display: flex;
+    justify-content: center; */
+    margin: 0 455px;
+    width: 100%;
+}
+.foot-logo h1{
+    font-weight: 700;
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+footer p{
+    margin: 10px auto;
+    /* margin-top: none; */
+    /* margin-left: 100px; */
+    text-align: justify;
+    align-items: center;
+    color: #8987A1;
+    
+    /* font-size: 30px; */
+    
+}
+
+footer{
+    width: 530px;
+    height: 100px;
+}
+.foot-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-btn{
+    border: none;
+    color: #8987A1;
+    font-size: 30px;
+    background-color: 0;
+}
+
+.foot-flex{
+    margin-top: 30px;
+    height: 200px;
+}
+
+.links{
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: space-around;
+}
