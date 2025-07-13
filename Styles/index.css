@@ -1,8 +1,14 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 400px; */
+  font-style: normal;
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400px;
-  /* font-style: normal; */
+  /* font-weight: 400px; */
+  font-style: normal;
 }
 
 /* header styles */
@@ -10,8 +16,15 @@ header{
     background-image: url("../Assets/Hero-bg.png");
     height: 698px;
 }
-header .logo, header .btn{
+header .btn{
     margin-top: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header .logo{
+    margin-top: 50px;
+    font-size: 31px;
 }
 main{
     background-color: #ffffff50;
@@ -143,6 +156,8 @@ nav .btn{
     display: flex;
     justify-content: space-between;
     gap: 115px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .form-title{
@@ -227,11 +242,6 @@ footer{
 }
 
 /* bonus */
-/* .cards div{
-    display: flex;
-    justify-content: center;
-} */
-
 .cards h2{
     color: #252432;
     font-weight: bold;
@@ -241,14 +251,18 @@ footer{
 }
 
 .stars img{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 
+.cards{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 .card-flex{
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    /* gap: ; */
 }
 
 .card{
